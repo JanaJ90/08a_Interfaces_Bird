@@ -1,12 +1,24 @@
 package com.cc.java;
 
-public class Bird implements Flyabel {
+
+
+public class Bird implements Flyabel, IFeathers {
 
     @Override
     public String fly() {
        return "I can fly at 20mph";
     }
 
+  
+
+    @Override
+    public String hasFeathers() {
+        return "I have feathers";
+    }
+
+
+
+   
 
 
 
